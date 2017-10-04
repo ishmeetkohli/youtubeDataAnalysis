@@ -1,10 +1,8 @@
+!(https://servicesdirectory.withyoutube.com/static/images/logo.svg)
+
 # Large Scale data analysis on Youtube Dataset using Spark and Hadoop
 
-![alt text](https://servicesdirectory.withyoutube.com/static/images/logo.svg)
-
-
-
-# ABSTRACT
+## ABSTRACT
 
 Data Analysis and Mining [1] are becoming indispensable part of every major organization to find recent trends and statistics and formulate business strategies, planning and marketing. However, most of the Data generated is generally in Huge Size and comes in unstructured format.  Big Data cannot be analyzed by traditional database systems and processes. To resolve this issue, many new tools that implement Parallel Processing are being deployed in these organizations.
 
