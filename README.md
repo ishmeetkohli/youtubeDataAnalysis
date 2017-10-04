@@ -16,12 +16,12 @@ The Volume and variety of Big Data makes the task of Data Analysis [4] using exi
 
 As part of Advanced Databases project, we have extracted and analyzed dataset of 5 Million records from YouTube API. The dataset size was 603 MB and consists of key attributes like Video Id, views, likes, Comments and Categories. We performed Data Analysis using Apache Hadoop and Apache Spark open source software framework.
 
-YouTube has 1.3 Billion users and 300 hours of video are being uploaded in YouTube every minute [2]. YouTube gets 30 million users every day and nearly 5 Billion views are watched every day. Hence, YouTube has now become very important marketing tool for major companies and entertainment channels. The primary purpose if this project is to find how real YouTube time data can be analyzed to get latest analysis and trends.  Along with videos with highest view count, most watched categories, we will find how the user base is increasing and how their interests are changing with every year
+YouTube has 1.3 Billion users and 300 hours of video are being uploaded in YouTube every minute. YouTube gets 30 million users every day and nearly 5 Billion views are watched every day. Hence, YouTube has now become very important marketing tool for major companies and entertainment channels. The primary purpose if this project is to find how real YouTube time data can be analyzed to get latest analysis and trends.  Along with videos with highest view count, most watched categories, we will find how the user base is increasing and how their interests are changing with every year
 
 
 ## DATASET DESCRIPTION
 
-We used two sources, YouTube-8M Video Understanding Challenge [5] and the YouTube API [6] to extract latest YouTube data.
+We used two sources, YouTube-8M Video Understanding Challenge and the YouTube API to extract latest YouTube data.
 
 1. Initially, we scraped 8 Million Video Ids from Google Cloud &amp; YouTube-8M Video Understanding Challenge Dataset.
 2. Then, we used YouTube API to fetch the following attributes corresponding to these Ids
