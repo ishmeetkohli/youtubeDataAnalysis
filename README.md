@@ -8,9 +8,9 @@ Data Analysis and Mining [1] are becoming indispensable part of every major orga
 
 As part of the Advanced Databases Project, we propose to perform Data Analysis of YouTube data. We extracted data of 5 Million Video records from YouTube API and performed Data Analysis on the data to insight into latest trends and user engagement in YouTube with respect to Categories and Year. Data Analysis and Visualization was done using Apache Hadoop and Apache Spark.
 
-1. 1.INTRODUCTION
+## INTRODUCTION
 
-Big Data [1] refers to large datasets that could not be analyzed by traditional database systems and processes like RDBMS and existing DataWarehousing systems. Big Data is generally characterized by Huge Volume, High Velocity and High Variety. Companies like Google, YouTube, Facebook, Amazon, Alibaba, Pandora, and Wikipedia are generating and collecting Petabytes of Big data every minute in mutistructured formats likes videos, audios, images, metadata, logs etc. The data generated can be used for Recommendations, formulating business and market strategies using Data Analysis and applying machine learning algorithms. It has been estimated that 2.5 Exabyte of Data is produced every day.
+Big Data refers to large datasets that could not be analyzed by traditional database systems and processes like RDBMS and existing DataWarehousing systems. Big Data is generally characterized by Huge Volume, High Velocity and High Variety. Companies like Google, YouTube, Facebook, Amazon, Alibaba, Pandora, and Wikipedia are generating and collecting Petabytes of Big data every minute in mutistructured formats likes videos, audios, images, metadata, logs etc. The data generated can be used for Recommendations, formulating business and market strategies using Data Analysis and applying machine learning algorithms. It has been estimated that 2.5 Exabyte of Data is produced every day.
 
 The Volume and variety of Big Data makes the task of Data Analysis [4] using existing traditional Data processing techniques extremely challenging.  To solve this issue, organizations are shifting towards using multiple servers and using parallel processing to save time and memory. There are different technologies like Hadoop, Spark, HBASE that have been developed and are rapidly evolving to deal with Big Data.
 
@@ -19,7 +19,7 @@ As part of Advanced Databases project, we have extracted and analyzed dataset of
 YouTube has 1.3 Billion users and 300 hours of video are being uploaded in YouTube every minute [2]. YouTube gets 30 million users every day and nearly 5 Billion views are watched every day. Hence, YouTube has now become very important marketing tool for major companies and entertainment channels. The primary purpose if this project is to find how real YouTube time data can be analyzed to get latest analysis and trends.  Along with videos with highest view count, most watched categories, we will find how the user base is increasing and how their interests are changing with every year
 
 
-1. 2.DATASET DESCRIPTION
+## DATASET DESCRIPTION
 
 We used two sources, YouTube-8M Video Understanding Challenge [5] and the YouTube API [6] to extract latest YouTube data.
 
@@ -36,15 +36,10 @@ We used two sources, YouTube-8M Video Understanding Challenge [5] and the YouTub
 | Column 7 | Published on (Date) |
 
 
+Out of the 8 Million Video Ids, we were able to fetch 5 Million records since we exhausted the API limit quota.
 
 
-
-
-
-1. Out of the 8 Million Video Ids, we were able to fetch 5 Million records since we exhausted the API limit quota.
-
-
-YouTube API
+## YouTube API
 
 1. The total size of data we extracted was around 600 MB and spanned across 18 files.
 
