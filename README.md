@@ -35,41 +35,30 @@ We used two sources, YouTube-8M Video Understanding Challenge [5] and the YouTub
 | Column 6 | Category |
 | Column 7 | Published on (Date) |
 
-
 Out of the 8 Million Video Ids, we were able to fetch 5 Million records since we exhausted the API limit quota.
+The total size of data we extracted was around 600 MB and spanned across 18 files and data collection took approximately 5 hours.
 
-
-## YouTube API
-
-1. The total size of data we extracted was around 600 MB and spanned across 18 files.
-
-Data collection took approximately 5 hours. Following is the breakdown of the data on the basis of categories and year:
-
-
-
-Video  breakdown by Category
-
-1. 3.ALGORITHMS USED
+## ALGORITHMS USED
 
 We performed analysis on 5 queries using MapReduce algorithm using Apache Hadoop and Apache Spark software framework.  Following is the flow of project to implement MapReduce algorithm.
 
  
-1. 1.MapReduce Algorithm
+### MapReduce Algorithm
 
 MapReduce Algorithm [3] consists of Map() procedure that performs filtering and sorting of input data and Reduce() performs summary\aggregate function per (key, value) pair.
 
  
-1. 2.Hadoop
+### Hadoop
 
 Hadoop is a distributed computing Framework developed and maintained by The Apache Software Foundation written in Java. Hadoop consists of HDFS and MapReduce and is genrally deployed in a group of machines called cluster. Initially, GFS and MapReduce were built to empower Google Search. HDFS stands for Hadoop Distributed File System and is used to store data across multiple disks.MapReduce is a way to parallelize Data processing tasks.
 
-1. 3.Spark
+### Spark
 
 Apache Spark was built on top of Hadoop MapReduce framework. It extends MapReduce model to efficiently use it for more type of computations using interactive queries and stream processing. The main feature of Spark is in-memory cluster computing that increases the processing speed of application. Resilient Distribute Datasets are the fundamental data structures of Spark. Spark&#39;s API is written in Scala, Java and Python. Spark automatically distributes the data contained in RDDs across cluster and parallelizes the data.
 
-1. 5.ANALYSIS AND RESULTS
+## Queries
 
-**Following are the list of queries we tried to answer using both Hadoop MapReduce and Spark:**
+Following are the list of queries we tried to answer using both Hadoop MapReduce and Spark:
 
 1. Top 20 videos with largest number of views.
 2. Top 20 videos with largest number of likes.
