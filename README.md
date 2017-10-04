@@ -1,4 +1,4 @@
-!(https://servicesdirectory.withyoutube.com/static/images/logo.svg)
+![Youtube Logo](https://servicesdirectory.withyoutube.com/static/images/logo.svg)
 
 # Large Scale data analysis on Youtube Dataset using Spark and Hadoop
 
