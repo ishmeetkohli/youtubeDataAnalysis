@@ -4,7 +4,7 @@
 
 ## ABSTRACT
 
-Data Analysis and Mining [1] are becoming indispensable part of every major organization to find recent trends and statistics and formulate business strategies, planning and marketing. However, most of the Data generated is generally in Huge Size and comes in unstructured format.  Big Data cannot be analyzed by traditional database systems and processes. To resolve this issue, many new tools that implement Parallel Processing are being deployed in these organizations.
+Data Analysis and Mining are becoming indispensable part of every major organization to find recent trends and statistics and formulate business strategies, planning and marketing. However, most of the Data generated is generally in Huge Size and comes in unstructured format.  Big Data cannot be analyzed by traditional database systems and processes. To resolve this issue, many new tools that implement Parallel Processing are being deployed in these organizations.
 
 As part of the Advanced Databases Project, we propose to perform Data Analysis of YouTube data. We extracted data of 5 Million Video records from YouTube API and performed Data Analysis on the data to insight into latest trends and user engagement in YouTube with respect to Categories and Year. Data Analysis and Visualization was done using Apache Hadoop and Apache Spark.
 
@@ -12,7 +12,7 @@ As part of the Advanced Databases Project, we propose to perform Data Analysis o
 
 Big Data refers to large datasets that could not be analyzed by traditional database systems and processes like RDBMS and existing DataWarehousing systems. Big Data is generally characterized by Huge Volume, High Velocity and High Variety. Companies like Google, YouTube, Facebook, Amazon, Alibaba, Pandora, and Wikipedia are generating and collecting Petabytes of Big data every minute in mutistructured formats likes videos, audios, images, metadata, logs etc. The data generated can be used for Recommendations, formulating business and market strategies using Data Analysis and applying machine learning algorithms. It has been estimated that 2.5 Exabyte of Data is produced every day.
 
-The Volume and variety of Big Data makes the task of Data Analysis [4] using existing traditional Data processing techniques extremely challenging.  To solve this issue, organizations are shifting towards using multiple servers and using parallel processing to save time and memory. There are different technologies like Hadoop, Spark, HBASE that have been developed and are rapidly evolving to deal with Big Data.
+The Volume and variety of Big Data makes the task of Data Analysis using existing traditional Data processing techniques extremely challenging.  To solve this issue, organizations are shifting towards using multiple servers and using parallel processing to save time and memory. There are different technologies like Hadoop, Spark, HBASE that have been developed and are rapidly evolving to deal with Big Data.
 
 As part of Advanced Databases project, we have extracted and analyzed dataset of 5 Million records from YouTube API. The dataset size was 603 MB and consists of key attributes like Video Id, views, likes, Comments and Categories. We performed Data Analysis using Apache Hadoop and Apache Spark open source software framework.
 
@@ -45,7 +45,7 @@ We performed analysis on 5 queries using MapReduce algorithm using Apache Hadoop
  
 ### MapReduce Algorithm
 
-MapReduce Algorithm [3] consists of Map() procedure that performs filtering and sorting of input data and Reduce() performs summary\aggregate function per (key, value) pair.
+MapReduce Algorithm consists of Map() procedure that performs filtering and sorting of input data and Reduce() performs summary\aggregate function per (key, value) pair.
 
  
 ### Hadoop
